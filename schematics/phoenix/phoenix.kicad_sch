@@ -2884,6 +2884,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 38.1) (xy 64.77 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ac594a4-a1f6-4186-a31c-ae3ec9be5032")
+	)
+	(wire
+		(pts
 			(xy 118.11 38.1) (xy 120.65 38.1)
 		)
 		(stroke
@@ -2961,6 +2971,16 @@
 			(type default)
 		)
 		(uuid "37279b34-8207-45c2-954a-538851a58936")
+	)
+	(wire
+		(pts
+			(xy 83.82 53.34) (xy 64.77 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373a7558-fb74-496a-b7c1-63bf48304be5")
 	)
 	(wire
 		(pts
@@ -3375,6 +3395,17 @@
 		)
 		(uuid "375d3831-fd3d-4bf5-ab10-080a58a904c8")
 	)
+	(label "ROT_DT"
+		(at 73.66 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "4848fe86-49a8-448e-abd7-7cbea344c483")
+	)
 	(label "SSR_PWM"
 		(at 73.66 66.04 0)
 		(fields_autoplaced yes)
@@ -3418,6 +3449,28 @@
 			(justify left bottom)
 		)
 		(uuid "79c740b6-fa9d-4ceb-9dd1-31dcb7d39f23")
+	)
+	(label "ROT_SW"
+		(at 73.66 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "87809426-66fa-4eda-b262-4ca48e6e0d3e")
+	)
+	(label "ROT_CLK"
+		(at 73.66 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccc2d96b-08ef-4e92-b181-d5967c862061")
 	)
 	(label "THERMO_~{CS}"
 		(at 73.66 68.58 0)
